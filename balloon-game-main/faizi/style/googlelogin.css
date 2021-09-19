@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+        display: flex;
+        /* position: absolute; */
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-image: url('../pic/maxresdefault.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-direction: column;
+    
+}
+
+.google-icon-wrapper{
+height: 100px;
+width: 100px;
+
+
+}
+.btn-text{
+    margin: 5px;
+    padding:5px 8px 5px 8px;
+    background-color: rgb(76, 110, 221);
+    color: aliceblue;
+    border-radius: 20px;
+
+}
